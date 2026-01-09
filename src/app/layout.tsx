@@ -19,7 +19,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Qraft",
   description: "Qraft starter project",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
+
 
 export default function RootLayout({
   children,
